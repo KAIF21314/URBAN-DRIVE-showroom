@@ -22,11 +22,13 @@ font-family: 'Poppins', sans-serif;
       /* background-color: rgba(0, 0, 0, 0.3); */
     
     /* opacity: 0.9; */
-    /* z-index: 1000; */
+    z-index: 9999;
     /* position: fixed; */
     width: 100%;
     top: 0px;
     font-family: 'Poppins', sans-serif;
+    position: fixed;
+    
 
 }
 
@@ -43,13 +45,13 @@ font-family: 'Poppins', sans-serif;
     font-size: 18px;
     padding-left: 15px;
 }
-.nav-left :hover{
+.nav-left i :hover{
 transform: scale(1.2);
 
 }
 
 .nav-left img{ 
-    width: 71px;
+    width: 68px;
     /* padding-top: 10px; */
     padding-bottom: 10px;
     
