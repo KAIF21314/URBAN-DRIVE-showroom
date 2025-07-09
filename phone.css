@@ -88,22 +88,9 @@
     
 }
 @media(max-width:900px) {
-    .section-2{ padding-top: 45px;
+    .section-2{ 
       height: auto;
       align-items: center;
-    }
-    
-}
-@media(max-width:900px) {
-    .background-hover{ 
-        width: 100%;
-    }
-    
-}
-@media(max-width:900px) {
-    .main-p{ 
-      height: auto;
-      text-align: justify;
     }
     
 }
@@ -128,12 +115,6 @@
     }
     
 }
-@media(max-width:1118px){
-    .nav-bar{ 
-        position: absolute;
-    }
-    
-}
 @media(max-width:1008px){
     #logo-name{ 
         display: none;
@@ -143,7 +124,7 @@
 @media(max-width:1008px){
     .nav-left img{ 
        padding-bottom: 5px;
-       width: 65px;
+       width: 135px;
     }
     
 }
@@ -188,12 +169,6 @@
         font-size: 3rem;
        
     }}
-@media(max-width:600px){
-    .mid-center h1{ 
-        /* top: 38px; */
-        font-size: 2.5rem;
-       
-    }}
 @media(max-width:1118px){
     .section-4 h1{ 
         /* top: 38px; */
@@ -222,18 +197,10 @@
     .border-div{ 
         /* top: 38px; */
         /* width: 129%; */
-        width: 123%;
-        height:auto;
+        width: 129%;
+        height: auto;
        font-size: 13px;
     }}
-    
-@media(max-width:520px){
-    .border-div:hover{ 
-        /* top: 38px; */
-        /* width: 129%; */
-        transform: scale(1);
-    }}
-
 @media(max-width:940px){
     .aling-mid{ 
         /* top: 38px; */
@@ -273,27 +240,10 @@
     }
     
 }
-@media(max-width:600px){
-    .mid-center p{ 
-        /* top: 38px; */
-        font-size: 1.25rem;
-       
-    }
-    
-}
 @media(max-width:1118px){
     .mid-center button { 
         /* top: 38px; */
         font-size: 1.5rem;
-        
-       
-    }
-    
-}
-@media(max-width:1118px){
-    .mid-center button { 
-        /* top: 38px; */
-        font-size: 0.9rem;
         
        
     }
@@ -320,6 +270,16 @@
     }
     
 }
+/* @media(max-width:1150px){
+    .collection{ 
+    display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+
+
+    }
+    
+} */
+
 @media(max-width:900px){
     .footer-main{ 
      display: flex;
@@ -328,16 +288,6 @@
      flex-wrap: wrap;
      justify-content: space-around;
 
-    }
-    
-}
-@media(max-width:450px){
-    .footer-main{ 
-     display: flex;
-     flex-direction: column;
-     /* overflow-x: hidden; */
-     flex-wrap: wrap;
-     text-align: center;
     }
     
 }
@@ -410,15 +360,6 @@ padding: 10px;
     
 }
 @media(max-width:400px){
-    .mid-section{ 
-     /* font-size: 15px; */
-/* padding: 10px; */
-/* padding-left: 20px; */
-height: 90vh;
-    }
-    
-}
-@media(max-width:400px){
     .mid-section h1{ 
      /* font-size: 15px; */
 font-size: 30px;
@@ -452,69 +393,10 @@ width: 200px;
     }
     
 }
-    
-@media(max-width:490px){
-    .mid-section{ 
-     /* font-size: 15px; */
-/* width: 200px; */
-height: 90vh;
-    }
-    
-}
-    
-@media(max-width:490px){
-    .background-car{ 
-     /* font-size: 15px; */
-/* width: 200px; */
-height: 85vh;
-    }
-    
-}
 @media(max-width:400px){
     .mid-section button{ 
      /* font-size: 15px; */
-font-size: 15px;
-    }
-    
-}
-@media(max-width:400px){
-    .mid-center{ 
-     /* font-size: 15px; */
-/* font-size: 15px; */
-top: 125px;
-    }
-    
-}
-@media(max-width:500px){
-    .section-3{ 
-     /* font-size: 15px; */
-/* font-size: 15px; */
-padding-top: 65px;
-    }
-    
-}
-@media(max-width:500px){
-    .section-4{ 
-     /* font-size: 15px; */
-/* font-size: 15px; */
-padding-top: 65px;
-    }
-    
-}
-@media(max-width:500px){
-    .section-5{ 
-     /* font-size: 15px; */
-/* font-size: 15px; */
-padding-top: 65px;
-    }
-    
-}
-@media(max-width:500px){
-    .words{ 
-     /* font-size: 15px; */
-/* font-size: 15px; */
-top: 210px;
-padding: 8px;
+font-size: 20px;
     }
     
 }
@@ -526,6 +408,5 @@ display: none;
     }
     
 }
-
 
 
