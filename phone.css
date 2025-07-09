@@ -78,6 +78,24 @@
     }
     
 }
+@media(max-width:1296px){
+    #porche{ 
+        display: none;
+    }
+    #mclaren{
+display: none;
+    }
+    
+}
+@media(max-width:989px){
+    #porche{ 
+        display: block;
+    }
+    #mclaren{
+display: block;
+    }
+    
+}
 @media(max-width:900px) {
     .section-main{ 
       display: flex;
@@ -240,6 +258,14 @@
     }
     
 }
+@media(max-width:485px){
+    .mid-center p{ 
+        /* top: 38px; */
+        font-size: 1.5rem;
+       
+    }
+    
+}
 @media(max-width:1118px){
     .mid-center button { 
         /* top: 38px; */
@@ -249,7 +275,7 @@
     }
     
 }
-@media(max-width:1118px){
+@media(max-width:1200px){
     .main-p{ 
        font-size: 1rem;
     }
@@ -270,16 +296,6 @@
     }
     
 }
-/* @media(max-width:1150px){
-    .collection{ 
-    display: grid;
-     grid-template-columns: repeat(3, minmax(0, 1fr));
-
-
-    }
-    
-} */
-
 @media(max-width:900px){
     .footer-main{ 
      display: flex;
